@@ -2,14 +2,24 @@ import React from 'react'
 /*import Message from './Message/Message'*/
 /*import Counter from './Counter/Counter'*/
 /*import Employee from './Employee/Employee'*/
-import Navbar from './Navbar/Navbar'
+/*import Navbar from './Navbar/Navbar'*/
+/*import Salary from './Salary/Salary'*/
+import Registration from './FormsEx/Registration'
+/*import Form from './Form/Form'*/
+
 class App extends React.Component {
     render() {
         return <div>
-            <h1>App Component</h1>
+            {/*<Navbar />*/}
+            <h1>Registration Form</h1>
             <hr />
+            <Registration/>
+
+           {/* <Salary />*/}
             
-            <Navbar />
+             {/*  <Employee /> */}
+            {/* <Counter /> */}
+           
         </div>
     }
 }
